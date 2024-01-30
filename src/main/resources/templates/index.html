@@ -1,0 +1,28 @@
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>NEWS List</title>
+</head>
+<script type="text/javascript" src="/js/index.js"></script>
+<body>
+<div>
+    <button onclick="allSummary()">요약보기</button>
+    <button onclick="allTitle()">제목보기</button>
+    <button onclick="getNews()">뉴스조회</button>
+    <input id="title" size="20"/>
+    <button onclick="searchTitle()">조회</button>
+</div>
+<div>
+    <input id="tokenPSID" size="50"/>
+    <input id="tokenPDIDTS" size="50"/>
+</div>
+<hr/>
+<div id="dataContent">
+
+</div>
+</body>
+</html>
