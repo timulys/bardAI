@@ -3,7 +3,7 @@ server:
 
 ai:
   google-bard:
-    token: insert your bard token
+    token: dwin3qPgnQ2jbkikQ0nwj5gQji03RLQNU1_c38fWRCy_5aY3W03BoVazn3F43AvKF5OYQg.;sidts-CjIBPVxjSpBSRDjEZkpxInDBvak93ZiFOaWc4HTJRrBbICh9p6rw_VxY-SBB-UX0RtteSBAA
 
 spring:
   data:
