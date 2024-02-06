@@ -31,7 +31,7 @@ public class SummaryUtil {
 				for (Element el : contents) {
 					content += el.text();
 				}
-				content += " 이 내용을 다섯 줄로 요약해줘.";
+				content += " 이 내용을 딱 다섯 줄로 요약해줘.";
 				System.out.println(news.getUrl() + " - Processing summary news...");
 			} else {
 				content = null;
